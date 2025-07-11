@@ -3,11 +3,11 @@
 int main()
 {
 
-    for (int i = 0; i < 15; i++)
+    for (int i = 0; i < 20; i++)
     {
-        if (i == 6)
+        if (i == 10)
         {
-           break;
+            continue;
         }
 
         printf("%d\n", i);

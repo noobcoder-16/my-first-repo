@@ -10,7 +10,7 @@ int main()
 
     area = pow(n, 2);
 
-    printf(" the area of sqaure is : %.2f\n", area);
+    printf("the area of sqaure is : %.2f\n ", area);
 
     return 0;
 }

@@ -18,9 +18,9 @@ int main()
     else
     {
 
-        
+        int i = 2;
 
-        for (int i= 2 ; i<n ; i++)
+        do
         {
 
             if (n % i == 0 && n != 2)
@@ -28,9 +28,9 @@ int main()
                 not_Prime = 1;
                 break;
             }
-           
+            i++;
 
-        } 
+        } while (i < n);
     }
     if (not_Prime)
     {
@@ -45,7 +45,8 @@ int main()
     return 0;
 }
 
-
+// you can try these loops to run  the code :::
+ 
 /*  while (i < n
 
         {
@@ -60,7 +61,7 @@ int main()
         }*/
 
 
-        /*  for (int =2 ; i<n ; i++)
+        /*  for (int i=2 ; i<n ; i++)
         {
 
             if (n % i == 0 && n != 2)

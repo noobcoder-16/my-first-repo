@@ -8,9 +8,9 @@ int main()
     for (int i = 1; i <= 10; i++)
 
     {
-        sum += 8 * i;
+        sum += 10 * i;
     }
-    printf("the sum of multiplication table of8 is : %d", sum);
+    printf("the sum of multiplication table of 10 is : %d", sum);
 
     return 0;
 }

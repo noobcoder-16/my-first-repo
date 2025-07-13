@@ -7,7 +7,7 @@ int sum(int, int);
 // function definition ;
 int sum(int x, int y)
 {
-   
+
     return x + y;
 }
 

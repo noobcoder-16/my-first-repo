@@ -14,7 +14,7 @@ int fibonacci(int n)
 int main()
 {
 
-    int n = 5;
+    int n = 10;
 
     printf(" the value of fibonacci series at %d is %d\n", n, fibonacci(n));
 

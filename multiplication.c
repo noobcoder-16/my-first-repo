@@ -10,8 +10,8 @@ int multiplication(int a, int b, int c)
 int main()
 {
 
-    int a = 2;
-    int b = 1;
+    int a = 5;
+    int b = 6;
     int c = 5;
 
     multiplication(a, b, c);

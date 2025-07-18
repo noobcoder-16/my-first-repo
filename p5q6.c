@@ -19,7 +19,7 @@ int natural_numbers(int n)
 
 int main()
 {
-    int n=6;
+    int n=10;
     int result;
 
     result = natural_numbers(n);
